@@ -1,0 +1,439 @@
+/*!
+ * Casual Distilery
+ * CSS
+ *
+ */
+
+/*! CSS reset from benfrain/app-reset */
+*,:after,:before{box-sizing:inherit}html{box-sizing:border-box}
+*{user-select:none;-webkit-tap-highlight-color:rgba(255,255,255,0);-webkit-tap-highlight-color:transparent}
+[contenteditable],input[type]{user-select:text}body,h1,h2,h3,h4,h5,h6,p{margin:0;font-size:1rem;font-weight:400}
+a{text-decoration:none;color:inherit}b{font-weight:400}em,i{font-style:normal}a:focus,input:focus{outline:0}
+fieldset,input{appearance:none;border:0;padding:0;margin:0;min-width:0;font-size:1rem;font-family:inherit}
+input::-ms-clear{display:none}input[type=number]{-moz-appearance:textfield}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{appearance:none}
+svg{display:inline-flex}img{max-width:100%;display:block}
+
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  background-color: black;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: 'Julius Sans One',Verdana,Arial,sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+p {
+  margin: 0 0 25px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+  @media (min-width: 768px) {
+    p {
+      margin: 0 0 35px;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+}
+
+a {
+  color: #42DCA3;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+  a:hover, a:focus {
+    text-decoration: none;
+    color: #1d9b6c;
+}
+
+header {
+  padding: 2em;
+} @media (max-width: 1199px) {
+    ul.banner-social-buttons {
+      margin-top: 15px;
+    }
+} @media (max-width: 767px) {
+  ul.banner-social-buttons li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  } ul.banner-social-buttons li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+header .logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+footer {
+  margin: 4em auto;
+  padding: 2em;
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+footer p {
+  line-height: 1.2em;
+  margin: 0 0 1em 0;
+}
+
+.app-content {
+
+} @media only screen and (min-width: 320px) and (max-width: 479px) {
+  /* SMARTPHONES PORTRAIT */
+  height: 546.5px;
+} @media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* SMARTPHONES LANDSCAPE */
+  height: 546.5px;
+} @media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* TABLETS PORTRAIT */
+  padding-top: 80px;
+  height: 100vh;
+  width-max: 92%;
+} @media only screen and (min-width: 992px) and (max-width: 1999px) {
+  /* TABLET LANDSCAPE / DESKTOP */
+  height: 546.5px;
+  padding-top: 80px;
+  width-max: 735px;
+}
+
+.tile-container {
+
+} @media only screen and (min-width: 320px) and (max-width: 479px) {
+  /* SMARTPHONES PORTRAIT */
+
+} @media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* SMARTPHONES LANDSCAPE */
+
+} @media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* TABLETS PORTRAIT */
+
+} @media only screen and (min-width: 992px) and (max-width: 1999px) {
+  /* TABLET LANDSCAPE / DESKTOP */
+  background-color: #faf9f9;
+  border: 1px solid #c2996f;
+  width: 220px;
+  height: 225px;
+  margin: 15px 10px 9px;
+  text-align: center;
+}
+
+.tile {
+  margin: auto;
+  height: 223px;
+  width: 186px;
+}
+
+.not-found {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+.not-found h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.not-found h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.home .products-selector {
+  clear: both;
+  padding: 2em;
+  text-align: center;
+}
+
+.home .products-selector .product-preview {
+  display: inline-block;
+  margin: 0 1em 1em 0;
+  max-width: 200px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+
+}
+
+
+
+.home .products-selector .product-preview img {
+  margin: 0;
+  width: 100%;
+}
+
+.home .products-selector .product-preview .name {
+  color: #c2996f;
+  text-align: center;
+  /* display: table-caption;*/
+  font-size: 1.6em;
+  overflow: hidden;
+  padding: .2em;
+  letter-spacing: 2px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.header-container {
+  font-family: 'Julius Sans One',Verdana,Arial,sans-serif;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 4em;
+}
+
+.title {
+  margin: 0;
+  overflow: hidden;
+  color: #c2996f;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.subtitle {
+  font-weight: 400;
+  text-align: center;
+  font-size: 54.6px;
+  letter-spacing: 5.5px;
+  margin-top: 1em;
+}
+
+.title:before {
+    margin: 0 9px -1px -55.5%;
+    display: inline-block;
+    border-bottom: 1px solid #c2996f;
+    vertical-align: super;
+    content: "";
+    width:40%;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: expandline-40-animation;
+}
+
+.title:after {
+    margin: 0 -55% 0 5px;
+    display: inline-block;
+    border-bottom: 1px solid #c2996f;
+    vertical-align: super;
+    content: "";
+    width:40%;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: expandline-40-animation;
+}
+
+.home .products-selector .product-preview .ingredients-count {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  font-weight: bold;
+  margin: .2em;
+  padding: .2em .4em;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  vertical-align: middle;
+}
+
+nav.product-menu {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+nav.product-menu a {
+  text-transform: uppercase;
+  font-family: 'Julius Sans One',Verdana,Arial,sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.6em;
+  margin: 0 1em 1em 0;
+  color: #7c6d85;
+}
+
+nav.product-menu a.active {
+  color: #c2996f;
+  text-decoration: none;
+}
+
+.product {
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.product header {
+  background: #ccc;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.product .picture-container {
+  margin: -160px 0 0 0;
+  padding: 0 1em 0 1em;
+}
+
+.product .picture-container img {
+  border-radius: 4px;
+  border: 8px solid #fff;
+  display: inline;
+  margin: 0 0 0 1em;
+  width: 200px;
+}
+
+.product .picture-container h2 {
+  width: 100%;
+  display: inline;
+  font-size: 3em;
+  padding: 0 0 0 .5em;
+  width: auto;
+}
+
+.product .icon {
+  display: inline-block;
+  padding-bottom: .1em;
+  width: auto;
+}
+
+.product .description,
+.product .ingredients {
+  font-size: 1.6em;
+  padding: 1em;
+}
+
+.product .Ingredient-description {
+  font-size: 1em;
+  padding: 1em;
+}
+
+.product .ingredients p {
+  font-size: 1em;
+}
+
+.product .ingredients li {
+  list-style: none;
+}
+
+.product .ingredients .symbol {
+  border-radius: 50%;
+  display: inline-block;
+  font-size: .8em;
+  height: 1.6em;
+  justify-content: center;
+  margin: 5px;
+  text-align: center;
+  width: 1.6em;
+}
+
+.product .ingredients .symbol.symbol-G {
+  color: #daa520;
+  background-color: #fff6de;
+  border: 2px solid #daa520;
+}
+
+.product .ingredients .symbol.symbol-S {
+  color: #383738;
+  background-color: #b9b5b5;
+  border: 2px solid #383738;
+}
+
+.product .ingredients .symbol.symbol-B {
+  color: #6b1919;
+  background-color: #ea96a1;
+  border: 2px solid #6E1924;
+}
+
+.transparent{
+  background:rgba(255,255,255,0.5);
+}
+
+.navigateBack {
+  font-size: 1.6em;
+  padding: 2em;
+  text-align: center;
+  text-decoration: none;
+}
+
+#abar {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+#abar a {
+  background: #ffa500;
+  color: #000;
+  display: block;
+  font-weight: bold;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+#abar a:hover {
+  text-decoration: underline;
+}
+
+#main-container {
+    background: rgba(23,23,23,0.5);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    z-index: -99;
+}
+
+#video-bg {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  z-index: -100;
+  background: transparent url(city.jpg) no-repeat;
+  background-size: cover;
+}
