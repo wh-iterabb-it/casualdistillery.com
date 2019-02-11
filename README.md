@@ -1,6 +1,8 @@
 Casual-site
 ============================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/wh-iterabb-it/casualdistillery.com.svg)](https://greenkeeper.io/)
+
 ### Description:
 
 cas•u•al (kăzhˈo͞o-əl)►
